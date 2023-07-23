@@ -1,0 +1,9 @@
+/* .tickets {
+  display: flex;
+  flex-direction: column;
+} */
+
+.lane_container {
+  border: 1px solid red;
+  width: 33.33%;
+}

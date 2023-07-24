@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Lane from './components/Lane/Lane';
 import TaskForm from './components/TaskForm/TaskForm';
-import generateDummyData from './data';
+import generateDummyData from './utils/data';
 
 function App() {
   const [todoList, setTodoList] = useState([]);
